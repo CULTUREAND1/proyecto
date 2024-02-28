@@ -1,3 +1,16 @@
+body{h1{
+      text-align: center;
+  }
+h2{
+    text-align: center;
+}
+h3{
+      text-align: center;
+  }
+h4{
+    text-align: center;
+}}
+
 body{background-color: #ffc800;
     color: #e100ff;}
 .lñ{background-color: #00ff00;
