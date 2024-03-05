@@ -29,16 +29,16 @@ body{background-color: #ffffff;
 }
 
 .mil{
-    position: absolute;
+        
     float: center;
 }
 
 .dosmil{
-    position: absolute;
+    
     float: left;
 }
 
 .tresmil{
-    position: absolute;
+
     float: right;
 }
