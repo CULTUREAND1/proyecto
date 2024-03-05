@@ -1,19 +1,49 @@
-body{h1{
-      text-align: center;
-  }
+text-align: center;
+}
 h2{
-    text-align: center;
+  text-align: center;
 }
 h3{
-      text-align: center;
-  }
-h4{
     text-align: center;
+}
+h4{
+  text-align: center;
 }}
 
-body{background-color: #6eb1c5;
-    color: #000000;}
-.lñ{background-color: #5681df;
-    color: black;}
-.img1{text-align: center
-    ;}
+body{background-color: #ffffff;
+  color: #000000
+  ;}
+
+.lñ{background-color: aquamarine;
+  color: black
+  ;}
+
+.encabezado{
+  background-color: aquamarine;
+  float: left;
+  line-height: 30px;
+}
+
+.img1{text-align: center;
+}
+
+.mil{
+
+  margin: auto;
+  text-align: center;
+  line-height: 30px;
+}
+
+.dosmil{
+  
+  margin: auto;
+  text-align: center;
+  line-height: 30px;
+}
+
+.tresmil{
+  margin: auto;
+  text-align: center;
+  line-height: 30px;
+
+}
