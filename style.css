@@ -31,14 +31,17 @@ body{background-color: #ffffff;
 .mil{
         
     float: left;
+    text-align: center;
 }
 
 .dosmil{
     
     float:right;
+    text-align: center;
 }
 
 .tresmil{
-
     
+    text-align: center;
+
 }
