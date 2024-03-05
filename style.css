@@ -20,6 +20,7 @@ body{background-color: #ffffff;
     ;}
 
 .encabezado{
+    background-color: aquamarine;
     float: left;
     line-height: 30px;
 }
