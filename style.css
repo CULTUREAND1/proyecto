@@ -12,8 +12,17 @@ h4{
 }}
 
 body{background-color: #dae9ee;
-    color: #000000;}
+    color: #000000
+    ;}
+
 .lñ{background-color: #bdd1fd;
-    color: black;}
+    color: black
+    ;}
+
+.nav ul li{
+    float: left;
+    line-height: 30px;
+}
+
 .img1{text-align: center
     ;}
