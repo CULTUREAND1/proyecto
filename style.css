@@ -31,13 +31,17 @@ body{background-color: #ffffff;
 .mil{
     align-items: center;
     position: absolute;
+    float: center;
 }
 
 .dosmil{
     align-items: center;
     position: absolute;
+    float: left;
+}
 
-}.tresmil{
+.tresmil{
     align-items: center;
     position: absolute;
+    float: right;
 }
