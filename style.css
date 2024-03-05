@@ -19,7 +19,7 @@ body{background-color: #dae9ee;
     color: black
     ;}
 
-.nav ul li{
+.section{
     float: left;
     line-height: 30px;
 }
