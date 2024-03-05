@@ -33,6 +33,7 @@ body{background-color: #ffffff;
   margin: auto;
   text-align: center;
   line-height: 30px;
+  display: flex;
 }
 
 .dosmil{
