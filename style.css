@@ -29,19 +29,22 @@ body{background-color: #ffffff;
 }
 
 .mil{
-        
-    float: left;
+
+    margin: auto;
     text-align: center;
+    line-height: 30px;
 }
 
 .dosmil{
     
-    float:right;
+    margin: auto;
     text-align: center;
+    line-height: 30px;
 }
 
 .tresmil{
-    
+    margin: auto;
     text-align: center;
+    line-height: 30px;
 
 }
