@@ -30,15 +30,15 @@ body{background-color: #ffffff;
 
 .mil{
         
-    text-align: center;
+    float: right;
 }
 
 .dosmil{
+    float: left;
     
-    text-align: right;
 }
 
 .tresmil{
-text-align: left;
+
     
 }
