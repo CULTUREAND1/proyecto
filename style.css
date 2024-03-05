@@ -30,12 +30,12 @@ body{background-color: #ffffff;
 
 .mil{
         
-    float: right;
+    float: left;
 }
 
 .dosmil{
-    float: left;
     
+    float:right;
 }
 
 .tresmil{
