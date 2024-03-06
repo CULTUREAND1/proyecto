@@ -1,5 +1,6 @@
 body{h1{
     text-align: center;
+    
 }
 h2{
   text-align: center;
@@ -11,18 +12,19 @@ h4{
   text-align: center;
 }}
 
-body{background-color: #ffffff;
-  color: #000000
+body{background-color: rgb(247, 0, 255);
+  color: #00ff15
   ;}
 
-.lñ{background-color: aquamarine;
-  color: black
+.lñ{background-color: rgb(132, 0, 255);
+  color: rgb(51, 255, 0)
   ;}
 
 .encabezado{
-  background-color: aquamarine;
+  background-color: rgb(234, 0, 255);
   float: left;
   line-height: 30px;
+  list-style: none;
 }
 
 .img1{text-align: center;
@@ -35,3 +37,13 @@ body{background-color: #ffffff;
   line-height: 30px;
   display: flex;
 }
+
+.linkss{
+    gap: 5rem;
+    display: flex;
+    color: aquamarine;
+
+}
+.fotobarney{background-color: rgb(132, 0, 255);
+    color: rgb(51, 255, 0)
+    ;}
