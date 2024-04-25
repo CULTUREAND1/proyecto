@@ -1,49 +1,93 @@
-body{h1{
-    text-align: center;
-    
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-h2{
-  text-align: center;
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
-h3{
-    text-align: center;
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
-h4{
-  text-align: center;
-}}
 
-body{background-color: rgb(247, 0, 255);
-  color: #00ff15
-  ;}
+/* Estilos del encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
 
-.lñ{background-color: rgb(132, 0, 255);
-  color: rgb(51, 255, 0)
-  ;}
+header h1 {
+  font-size: 2rem;
+}
 
-.encabezado{
-  background-color: rgb(234, 0, 255);
-  float: left;
-  line-height: 30px;
+header nav ul {
   list-style: none;
 }
 
-.img1{text-align: center;
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
 }
 
-.mil{
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
 
-  margin: auto;
+/* Estilos del hero section */
+#hero {
+  background-color: #f4f4f4;
+  padding: 50px 0;
   text-align: center;
-  line-height: 30px;
-  display: flex;
 }
 
-.linkss{
-    gap: 5rem;
-    display: flex;
-    color: aquamarine;
-
+#hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
 }
-.fotobarney{background-color: rgb(132, 0, 255);
-    color: rgb(51, 255, 0)
-    ;}
+
+#hero p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+/* Estilos del section de servicios */
+#services {
+  padding: 50px 0;
+  background-color: #eaeaea;
+  text-align: center;
+}
+
+#services h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.service {
+  margin-bottom: 30px;
+}
+
+.service h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+/* Estilos del footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1rem;
+}
