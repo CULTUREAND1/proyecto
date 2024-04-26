@@ -1,11 +1,16 @@
 /* styles.css */
 
 body {
+  background-image: url('https://usbbog.github.io/Portafolios/assets/tds/s2/4.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* La imagen permanece fija mientras se desplaza la página */
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: rgb(255, 255, 255);
 }
+
 
 header {
   background-color: #333;
@@ -30,14 +35,28 @@ nav ul li a {
 }
 
 .banner {
-  background-image: url('https://github.com/Kenjilopez/InterAgro_Proyect/blob/main/Imagenes/Logopit_1710076234966%20(1).png?raw=true');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: #000000;
   text-align: center;
   padding: 100px 0;
+  flex: 1;
+  text-align: center;
+  margin: 0 20px;
+  border: 1px solid #ccc; /* Agrega un borde para una apariencia más definida */
+  border-radius: 8px; /* Agrega bordes redondeados para un aspecto más moderno */
+  padding: 20px; /* Añade relleno para separar el contenido del borde */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Agrega una sombra para un efecto de elevación */
+  transition: all 0.3s ease; /* Agrega una transición suave para los cambios */
+  display: flex;
+  justify-content: space-around;
+  align-items: center; /* Alinea los elementos verticalmente en el centro */
+  padding: 50px 0;
+  transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Aumenta la sombra al pasar el mouse */
 }
+
 
 .features {
   display: flex;
