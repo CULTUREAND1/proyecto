@@ -1,44 +1,103 @@
 <!DOCTYPE html>
 <html lang="es">
+    
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <title>Proyecto de Plataforma de Comercio para Campesinos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .header {
+            background: #28a745;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .feature {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature h2 {
+            margin-top: 0;
+            color: #28a745;
+        }
+
+        .footer {
+            background: #28a745;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav>
+
+    <div class="header">
+        <h1>Plataforma de Comercio para Campesinos</h1>
+        <p>Conectando a los campesinos con los compradores de manera directa y segura</p>
+    </div>
+
+    <div class="container">
+        <div class="feature">
+            <h2>Objetivo del Proyecto</h2>
+            <p>El objetivo principal de nuestro proyecto es establecer una plataforma digital que facilite la comunicación efectiva entre los campesinos y los compradores, mejorando así la comercialización de los productos del campesino.</p>
+        </div>
+
+        <div class="feature">
+            <h2>Requisitos Funcionales</h2>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Acerca de</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li>Registro de usuarios y perfiles.</li>
+                <li>Listado de productos con búsqueda y filtros.</li>
+                <li>Comunicación directa entre compradores y vendedores.</li>
+                <li>Calificaciones y reseñas de productos.</li>
+                <li>Geolocalización para facilitar las entregas.</li>
+                <li>Notificaciones automáticas sobre el estado de las órdenes.</li>
             </ul>
-        </nav>
-    </header>
-    <section class="banner">
-      <h1>Objetivo General Del Proyecto:</h1>
-      <p>El objetivo principal de nuestro programa es establecer una plataforma digital que facilite la comunicación efectiva entre los campesinos y los compradores, con <br><br> el propósito de mejorar la comercialización de los productos del campesino. A través de esta plataforma, buscamos brindar a los campesinos una herramienta que les permita <br><br> comerciar sus productos de manera eficiente, al tiempo que ofrecemos a los compradores acceso directo a los campesinos, proporcionando ventas seguras y confiables sin intermediarios.</p>
-      <a href="#" class="btn">Más información</a>
-  </section>
-  
-    <section class="features">
-        <div class="feature">
-            <h2>Problemáticas a Abordar:</h2>
-            <p> Falta de Acceso a Mercados Amplios: Los campesinos a menudo tienen dificultades para acceder a mercados más grandes y rentables debido a limitaciones geográficas y falta de conexiones con compradores y distribuidores.<br><br> Dependencia de intermediarios: Los intermediarios pueden ejercer control sobre los precios y condiciones, reduciendo las ganancias de los campesinos y aumentando la inseguridad en las transacciones.<br><br> Inseguridad en las transacciones: Los campesinos pueden enfrentar incertidumbre en cuanto al pago y la entrega de productos al interactuar con compradores desconocidos. <br><br>Dificultad para Garantizar la Calidad y la Entrega: Mantener la calidad y garantizar la entrega confiable de los productos puede ser un desafío para los campesinos, lo que afecta la confianza de los compradores.</p>
         </div>
+
         <div class="feature">
-            <h2>Requisitos Funcionales Del Software:</h2>
-            <p> Registro de Usuarios <br><br> Perfiles de Usuario <br><br> Listado de Productos Búsqueda y Filtros <br><br> Comunicación Directa Calificaciones y Reseñas <br><br> Geolocalización Notificaciones</p>
+            <h2>Requisitos No Funcionales</h2>
+            <ul>
+                <li>Seguridad de los datos personales y transacciones.</li>
+                <li>Escalabilidad para soportar un gran número de usuarios.</li>
+                <li>Interfaz de usuario intuitiva y fácil de usar.</li>
+                <li>Rendimiento óptimo en diferentes dispositivos y navegadores.</li>
+            </ul>
         </div>
+
         <div class="feature">
-            <h2>Impacto Esperado:</h2>
-            <p> La implementación exitosa de esta plataforma de software podría revolucionar la forma en que los campesinos interactúan con los compradores y comercializan sus productos. <br><br> Se espera que reduzca la dependencia de intermediarios, aumente la transparencia en las transacciones y mejore la confianza entre las partes. <br><br>Al ofrecer un canal directo de comunicación y transacciones seguras, la plataforma podría empoderar a los campesinos al proporcionarles una vía confiable para llevar sus productos al mercado y recibir compensación justa por su trabajo. <br><br> Al mismo tiempo, los compradores se benefician al acceder a productos de calidad directamente de los productores y al participar en un proceso más transparente y eficiente de adquisición..</p>
+            <h2>Impacto Esperado</h2>
+            <p>Esperamos que la plataforma revolucione la forma en que los campesinos interactúan con los compradores, reduciendo la dependencia de intermediarios, aumentando la transparencia y mejorando la confianza entre las partes involucradas.</p>
         </div>
-    </section>
-    <footer>
-        <p>Derechos de autor &copy; 2024 - Mi Página Web</p>
-    </footer>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Plataforma de Comercio para Campesinos. Todos los derechos reservados.</p>
+    </div>
+
 </body>
 </html>

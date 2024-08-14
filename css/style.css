@@ -1,115 +1,42 @@
-/* styles.css */
-
 body {
-  background-image: url('https://usbbog.github.io/Portafolios/assets/tds/s2/4.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; /* La imagen permanece fija mientras se desplaza la página */
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: rgb(255, 255, 255);
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
 }
 
-
-header {
-  background-color: #333;
-  padding: 20px 0;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.header {
+  background: #28a745;
+  color: white;
+  padding: 20px;
   text-align: center;
 }
 
-nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.banner {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #000000;
-  text-align: center;
-  padding: 100px 0;
-  flex: 1;
-  text-align: center;
-  margin: 0 20px;
-  border: 1px solid #ccc; /* Agrega un borde para una apariencia más definida */
-  border-radius: 8px; /* Agrega bordes redondeados para un aspecto más moderno */
-  padding: 20px; /* Añade relleno para separar el contenido del borde */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Agrega una sombra para un efecto de elevación */
-  transition: all 0.3s ease; /* Agrega una transición suave para los cambios */
-  display: flex;
-  justify-content: space-around;
-  align-items: center; /* Alinea los elementos verticalmente en el centro */
-  padding: 50px 0;
-  transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Aumenta la sombra al pasar el mouse */
-}
-
-
-.features {
-  display: flex;
-  justify-content: space-around;
-  padding: 50px 0;
+.container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .feature {
-  flex: 1;
-  text-align: center;
-  margin: 0 20px;
-}
-
-.features {
-  display: flex;
-  justify-content: space-around;
-  align-items: center; /* Alinea los elementos verticalmente en el centro */
-  padding: 50px 0;
-}
-
-.feature {
-  flex: 1;
-  text-align: center;
-  margin: 0 20px;
-  border: 1px solid #ccc; /* Agrega un borde para una apariencia más definida */
-  border-radius: 8px; /* Agrega bordes redondeados para un aspecto más moderno */
-  padding: 20px; /* Añade relleno para separar el contenido del borde */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Agrega una sombra para un efecto de elevación */
-  transition: all 0.3s ease; /* Agrega una transición suave para los cambios */
-}
-
-.feature:hover {
-  transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Aumenta la sombra al pasar el mouse */
-}
-
-
-.btn {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 20px;
-  text-decoration: none;
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
   border-radius: 5px;
-  transition: background-color 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.btn:hover {
-  background-color: #555;
+.feature h2 {
+  margin-top: 0;
+  color: #28a745;
 }
 
-footer {
-  background-color: #333;
-  color: #fff;
+.footer {
+  background: #28a745;
+  color: white;
   text-align: center;
-  padding: 20px 0;
+  padding: 10px 0;
+  margin-top: 20px;
 }
