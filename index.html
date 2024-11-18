@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surtidor de Gasolina</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Surtidor de Gasolina</h1>
+    <form id="surtidorForm">
+        <label for="capacidad">Capacidad del tanque (galones):</label>
+        <input type="number" id="capacidad" required>
+
+        <label for="existente">Gasolina en el tanque (galones):</label>
+        <input type="number" id="existente" required>
+
+        <label for="monto">Monto a ingresar ($):</label>
+        <input type="number" id="monto">
+
+        <button type="button" onclick="calcularGasolina()">Calcular Gasolina</button>
+    </form>
+    
+    <div id="resultados">
+        <h2>Resultados</h2>
+        <p id="galones"></p>
+        <p id="valor"></p>
+    </div>
+
+    <div id="factura">
+        <h2>Factura</h2>
+        <p id="facturaContenido"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
